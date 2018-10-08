@@ -2,7 +2,7 @@ import React from 'react'
 import User from './User.jsx'
 
 export default ({ users }) => {
-  console.log("o hai")
+  console.log("o hai there")
   return (
   <div className="user-list">
 
