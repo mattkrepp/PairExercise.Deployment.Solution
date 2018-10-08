@@ -1,7 +1,9 @@
 import React from 'react'
 import User from './User.jsx'
 
-export default ({ users }) => (
+export default ({ users }) => {
+  console.log("o hai")
+  return (
   <div className="user-list">
 
     <p className='lead'>Here's a list of {users.length} completely fictitious people:</p>
@@ -12,4 +14,5 @@ export default ({ users }) => (
       </tbody>
     </table>
   </div>
-)
+  )
+  }
